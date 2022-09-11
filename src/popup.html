@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first chrome extention popup</title>
+    <style type="text/css">
+      body {
+        margin: 10px;
+        white-space: no-wrap;
+      }
+      #container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .startApp {
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 5px 15px;
+        cursor: pointer;
+      }
+    </style>
+    <script src="js/popup.js"></script>
+  </head>
+  <body id="container">
+    <button class=".startApp">Render App</button>
+  </body>
+</html>
